@@ -31,3 +31,20 @@
 - Keep secrets out of the repo; use runtime prompts or a secret manager.  
 - Prefer pushing to a branch and creating a PR rather than direct pushes to protected branches.  
 - Start with the minimal set above and add files (e.g., LFS config, release scripts) as needs grow.
+
+
+
+### Repository files ordered by importance
+
+1. **README.md** — `/README.md`  
+2. **colab/notebook.ipynb** — `/colab/notebook.ipynb`  
+3. **colab/colab_helper.py** — `/colab/colab_helper.py`  
+4. **requirements.txt** — `/requirements.txt`  
+5. **.gitignore** — `/.gitignore`  
+6. **src/process.py** — `/src/process.py`  
+7. **tests/test_process.py** — `/tests/test_process.py`  
+8. **.github/workflows/ci.yml** — `/.github/workflows/ci.yml`  
+9. **CONTRIBUTING.md** — `/CONTRIBUTING.md`  
+10. **LICENSE** — `/LICENSE`  
+11. **colab/README.md** — `/colab/README.md`  
+12. **.env.example** — `/.env.example`
